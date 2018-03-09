@@ -30,8 +30,16 @@ Version: 18.03.09
 }
 
 Program AMan;
-uses UnTitle;
+uses UnTitle,UnMenu;
 
+
+var
+	mk:byte;
+	
 Begin
-	ShowTitle
+	ShowTitle;
+	repeat
+		mk:=MainMenu;
+	until mk=3;
+	
 End.

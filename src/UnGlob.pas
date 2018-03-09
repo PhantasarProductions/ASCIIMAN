@@ -30,8 +30,8 @@ interface
 
 	type tHOF = RECORD
 		name:String;
-		score:Integer;
-	end
+		score:Integer
+	end;
 
 	var
 		score,topscore:integer;
