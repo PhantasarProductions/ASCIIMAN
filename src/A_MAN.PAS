@@ -6,8 +6,8 @@
 }
 
 Program AMan;
-uses qcrt;
+uses UnTitle;
 
 Begin
-{ Actual code comes later :P }
+	ShowTitle
 End.
