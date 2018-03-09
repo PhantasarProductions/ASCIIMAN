@@ -2,3 +2,7 @@
 *.tpu
 *.o
 *.bak
+*.MKL
+*.mkl
+mkl*
+MKL*
