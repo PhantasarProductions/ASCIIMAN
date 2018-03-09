@@ -30,16 +30,17 @@ Version: 18.03.09
 }
 
 Program AMan;
-uses UnTitle,UnMenu;
+uses UnTitle,UnMenu,qcrt;
 
 
 var
 	mk:byte;
 	
 Begin
+	turn_off_cursor;
 	ShowTitle;
 	repeat
 		mk:=MainMenu;
 	until mk=3;
-	
+	turn_on_cursor;
 End.
