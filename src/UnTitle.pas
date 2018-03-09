@@ -45,7 +45,14 @@ begin
 			end;
 			WriteXY(ix+1,iy+1,#219)
 		end
-	end
+	end;
+	Color(9,0);
+	CenterText(40,14,'A game by Jeroen P. Broks');
+	Color(8,0);
+	CenterText(40,25,'(c) 2018 Jeroen P. Broks - General Public License');
+	Color(30,0);
+	CenterText(40,20,'Hit any key to continue');
+	WaitKey
 end;
 
 
