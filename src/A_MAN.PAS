@@ -6,7 +6,7 @@
 }
 
 Program AMan;
-
+uses qcrt;
 
 Begin
 { Actual code comes later :P }
