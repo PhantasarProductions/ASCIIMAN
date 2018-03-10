@@ -43,4 +43,5 @@ Begin
 		mk:=MainMenu;
 	until mk=3;
 	turn_on_cursor;
+	color(7,0); cls
 End.
