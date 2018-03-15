@@ -37,9 +37,15 @@ interface
 		score,topscore:integer;
 		Lives:Byte;
 		EnTimer,EnAfraidTimer:Integer;
+		
+		jcrfile:string;
 
 
 implementation
 
-
+begin
+	jcrfile:=ParamStr(0);
+	jcrfile[length(jcrfile)-1]:='J';
+	jcrfile[length(jcrfile)-1]:='C';
+	jcrfile[length(jcrfile)-0]:='R'
 end.
