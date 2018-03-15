@@ -1,8 +1,11 @@
 *.exe
 *.tpu
+*.tpp
+*.ppu
 *.o
 *.bak
 *.MKL
 *.mkl
 mkl*
 MKL*
+secret

@@ -30,7 +30,8 @@ Version: 18.03.09
 }
 
 Program AMan;
-uses UnTitle,UnMenu,qcrt;
+uses 
+	UnTitle,UnMenu,qcrt;
 
 
 var
